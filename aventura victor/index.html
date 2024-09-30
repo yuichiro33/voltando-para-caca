@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+    <title>DE VOLTA PRA CASA</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0"></div>
+           <img src="cenario-passo0.webp" alt="">
+        <p> hum dia quente de verão voce decidiu ir ate um lago proximo a escola la estava cheio então voce decidiu caminhar um pouco mais pra achar um lugar mais livre e fresco ao chegar numa rocha voce prefere subir ou inghinorar </p>
+            <button class="btn-proximo" data-proximo="1">subir</button>
+            <button class="btn-proximo" data-proximo="2">inghinorar</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p> voce de cima da rocha voce avistou um lago vazio a poucos metros de distancia de onde estava então voce se questinou serra que eu vou ou melhor deixar pra lá?</p>
+            <button class="btn-proximo" data-proximo="3">ir ao lago</button>
+            <button class="btn-proximo" data-proximo="4">deixar pra lá e voltar</button>
+        </div>
+        <div class="passso" id="passo-2">
+            <img src="img/cenario-passo2-voltar-casa.webp" alt="imagem voltando para casa desisti do lago">
+          <p>ao inghinorar voce decide voltar pra casa no meio do caminho comprar m sorvete e sentar perto do ventilador porrem voce foi chamado por colegas de escola pra dar uma volta.</p>
+          <button class="btn-proximo" data-proximo="5">ir com os amigos </button>
+          <button class="btn-proximo" data-proximo="6">rejeitar e ficar em casa </button>
+        </div>
+
+        <div class="passo" id="passo-3">
+        <p>ao chegar no lago foi dicidido dar um mergulho mas voce se enpolgo e ficou ate o anoitecer e decidiu voltar pra casa mas com a escuridão voce não consegue achar o caminho de volta</p>
+        <button class="btn-proximo" data-proximo="7">tentar ligar pra casa pra pedir ajuda </button>
+        <button class="btn-proximo" data-proximo="8">caminhar para tentar achar o caminho de volta.</button>
+        </div>
+        <div class="passo" id="passo-4">
+            <p>voce decide que o lago ta longe e que pode ser ariscado então voce desite volta pelo caminho que veio no riacho voce é chamado pelas outras crianças</p>
+            <button class="btn-proximo" data-proximo="9">ficar com elesno riacho</button>
+            <button class="btn-proximo" data-proximo="2">inghinorar e ir pra casa </button>
+        </div>
+        <div class="passo" id="passo-5">
+         <p>voce decide sair com os amigos pra dar uma volta pela cidade</p>
+         <button class="btn-proximo" data-proximo="10">avançar</button>
+        </div>
+
+        <div class="passo" id="passo6">
+         <p>voce rejeita prefere ficar em casa e decide tentar de novo amanha</p>
+         <button class="btn-proximo" data-proximo="0">tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-7">
+            <p>voce tenta ligar pra casa mais ta sem sinal de telefone e não consegue ligar então voce se lenbra da rocha e pensa que se voce achala pode votar pra casa ou esperar amanhecer</p>
+            <button class="btn-proximo" data-proximo="11">tentar achar a rocha</button>
+            <button class="btn-proximo" data-proximo="12">achar um abrigo e esperar amanhecer</button>
+        </div>
+        <div class="passo" id="passo-8">
+         <p>voce tenta caminhar pra achar o caminho de volta mas ta muito escuro e voce na consegue se localizar então voce decide se sentar e encontrar uma referencia</p>
+         <button class="btn-proximo" data-proximo="13">referencia:estrelas</button>
+         <button class="btn-proximo" data-proximo="14">referencia:rocha</button>
+        </div>
+        <div class="passo" id="passo-9">
+         <p>voce fica com eles no riacho e se diverte bastante e cosegue fazer novos amigos </p>
+         <button class="btn-proximo" data-proximo="0">parabens quer tentar novamente</button>
+        </div>
+        <div class="passo" id="passo-10">
+         <p>voce sai com seus amigos pela cidade e para pra tomar um sorvete e é convidado pra picina na casa de seu amigo</p>
+         <button class="btn-proximo" data-proximo="15">aceitar</button>
+         <button class="btn-proximo" data-proximo="16">recusar</button>
+        </div>
+        <div class="passo" id="passo-11">
+         <p>voce core pelo matagal tentando achar a rocha pra tentar voltar pra casa e por sorte voce encontra e sobe nela pra achar o caminho de volta pra casa</p>
+         <button class="btn-proximo" data-proximo="17">avançar</button>
+        </div>
+        <div class="passo" id="passo-12">
+            <p>voce de cide subir em cima de uma arvore e fica lá até amanhecder éra uma noite fria e escura quando saiu o sol voce consegue ver o caminho e volta pra casa</p>
+            <button class="btn-proximo" data-proximo="18">avançar</button>
+        </div>
+        <div class="passo" id="passo-13">
+            <p> voce obiserva uma estrela e lnbra que aquela estrela sepre se emcontrava num pont exato ensima de um relogio no centro de sua cidade </p>
+            <button class="btn-proximo" data-proximo="19">avançar</button>
+        </div>
+        <div class="passo" id="passo-14">
+         <p>voce usa as rochas pra achar o caminho por sorte voce chega numa trilha que pode te levar pra casa</p>
+         <button class="btn-proximo" data-proximo="0">seghir a trilha de volta pra casa</button>
+        </div>
+        <div class="passo" id="passo-15">
+        <p>voce aceita e vai pra casa de seus amigos pra aproveitar a picina</p>
+        <button class="btn-proximo" data-proximo="0">jogar novamente</button>
+        </div>
+        <div class="passo" id="passo-16">
+            <p>voce recusa sair com seus amigos e volta pra casa </p>
+            <button class="btn-proximo" data-proximo="0">jogar novamente</button>
+        </div>
+        <div class="passo" id="passo-17">
+            <img src="img/cenario-passo17-cidade-final.png" alt="encontrando caminho de volta para casa">
+         <p>voce acha a rocha e consegue achar as luzes pra voltar pra casa de pois de tanto caminhar cosegue vpltar pra cas</p>
+         <button class="btn-proximo" data-proximo="0">jogar novamente</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+
+
+</body>
+</html>
